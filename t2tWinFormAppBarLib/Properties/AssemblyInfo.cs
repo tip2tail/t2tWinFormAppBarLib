@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("t2tWinFormAppBarLib")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("AppBar helper library for WinForms")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Windows User")]
+[assembly: AssemblyCompany("tip2tail Ltd")]
 [assembly: AssemblyProduct("t2tWinFormAppBarLib")]
-[assembly: AssemblyCopyright("Copyright © Windows User 2018")]
+[assembly: AssemblyCopyright("Copyright © 2018 tip2tail Ltd")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
