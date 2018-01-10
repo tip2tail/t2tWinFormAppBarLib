@@ -4,7 +4,9 @@ Helper library for creating AppBars (forms which are docked to the side of the s
 
 Available via Nuget : https://www.nuget.org/packages/tip2tail.WinFormAppBarLib/
 
-Based on https://github.com/PhilipRieck/WpfAppBar which carries out a similar function for WPF applications.
+Based on:
+* https://github.com/PhilipRieck/WpfAppBar which carries out a similar function for WPF applications.
+* Various other sources found online.
 
 What is it?
 ----------
