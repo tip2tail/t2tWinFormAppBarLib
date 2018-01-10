@@ -1,5 +1,5 @@
 # t2tWinFormAppBarLib
-=====================
+
 Helper library for creating AppBars (forms which are docked to the side of the screen) in .NET WinForms.  AppBars reserve the required space, similar to the Taskbar in Windows.
 
 Available via Nuget : https://www.nuget.org/packages/tip2tail.WinFormAppBarLib/
