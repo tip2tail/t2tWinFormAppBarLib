@@ -347,7 +347,7 @@ namespace tip2tail.WinFormAppBarLib
                 }
 
                 // Set the app bar position
-                appBarForm.TopMost = true;
+                appBarForm.TopMost = false;
                 appBarForm.FormBorderStyle = FormBorderStyle.None;
                 AppBarSetPosition(edge, appBarForm);
 

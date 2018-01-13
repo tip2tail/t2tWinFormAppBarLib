@@ -1,0 +1,10 @@
+CHANGES
+------------------
+
+1.0.1
+------------------
+Fix bar being always on top when not required
+
+1.0.0
+------------------
+Initial Release
