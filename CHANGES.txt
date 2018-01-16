@@ -1,6 +1,10 @@
 CHANGES
 ------------------
 
+1.0.2
+------------------
+License information correction.
+
 1.0.1
 ------------------
 Fix bar being always on top when not required

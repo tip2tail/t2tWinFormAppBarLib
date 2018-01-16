@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/tip2tail/t2tWinFormAppBarLib</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Helper library for creating AppBars (forms which are docked to the side of the screen).  AppBars reserve the required space, similar to the Taskbar in Windows.</description>
-    <releaseNotes>Fix to ensure bar is not incorrectly on top when docked.</releaseNotes>
+    <releaseNotes>Correction to license information</releaseNotes>
     <copyright>Copyright 2018 Mark Young (tip2tail)</copyright>
     <tags>AppBar WinForms WinForm C# Toolbar Docking Windows</tags>
   </metadata>
