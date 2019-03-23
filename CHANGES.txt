@@ -1,6 +1,14 @@
 CHANGES
 ------------------
 
+1.2.0
+------------------
+New feature to prevent Show Desktop hiding the form.
+
+1.1.0
+------------------
+Bugfixes.
+
 1.0.2
 ------------------
 License information correction.

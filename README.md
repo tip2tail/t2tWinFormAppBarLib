@@ -27,6 +27,17 @@ AppBarHelper.SetAppBar(this, AppBarEdge.Right);
 AppBarHelper.SetAppBar(this, AppBarEdge.None);
 ```
 
+How do I prevent the bar being hidden on Win+D / Show Desktop?
+--------------------------------------------------------------
+By default the app bar will be hidden when a user executes the Windows Show Desktop command.  This can be prevented but requires some additional code:
+
+```C#
+// Add the following in your form's constructor, before InitializeComponent()
+AppBarHelper.PreventShowDesktop(this.Handle);
+```
+
+> **Important Note**: A side-effect of preventing Show Desktop is that a non docked window will appear behind every other application that is running.
+
 I found a bug!
 --------------
 Please add an issue, or better yet send a pull request.  I can't say that I'll revisit this project in the future so any contributions are welcome.

@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("LibTestProgram")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Windows User")]
+[assembly: AssemblyCompany("tip2tail")]
 [assembly: AssemblyProduct("LibTestProgram")]
-[assembly: AssemblyCopyright("Copyright © Windows User 2018")]
+[assembly: AssemblyCopyright("Copyright © tip2tail 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

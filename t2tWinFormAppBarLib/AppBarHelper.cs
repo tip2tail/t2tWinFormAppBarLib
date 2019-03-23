@@ -84,6 +84,8 @@ namespace tip2tail.WinFormAppBarLib
             ABN_WINDOWARRANGE
         }
 
+        #region IMPORTS
+
         [DllImport("User32.dll", ExactSpelling = true, CharSet = CharSet.Auto)]
         private static extern bool MoveWindow(IntPtr hWnd, int x, int y, int cx, int cy, bool repaint);
 
@@ -92,6 +94,14 @@ namespace tip2tail.WinFormAppBarLib
 
         [DllImport("User32.dll", CharSet = CharSet.Auto)]
         private static extern int RegisterWindowMessage(string msg);
+
+        [DllImport("user32.dll", SetLastError = true)]
+        static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
+
+        [DllImport("user32.dll", SetLastError = true)]
+        static extern IntPtr FindWindowEx(IntPtr hP, IntPtr hC, string sC, string sW);
+
+        #endregion
 
         private delegate void MoveAndResizeWindowDelegate(IntPtr formHandle, RECT rc);
 
@@ -355,6 +365,13 @@ namespace tip2tail.WinFormAppBarLib
 
             info.Edge = edge;
 
+        }
+
+        public static void PreventShowDesktop(IntPtr hWnd)
+        {
+            IntPtr nWinHandle = FindWindowEx(IntPtr.Zero, IntPtr.Zero, "Progman", null);
+            nWinHandle = FindWindowEx(nWinHandle, IntPtr.Zero, "SHELLDLL_DefView", null);
+            SetParent(hWnd, nWinHandle);
         }
 
         #endregion

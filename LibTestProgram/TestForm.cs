@@ -8,6 +8,9 @@ namespace LibTestProgram
     {
         public TestForm()
         {
+            // Call before InitializeComponent to ensure tht Ctrl+D / Show Desktop is
+            // disabled for this window
+            AppBarHelper.PreventShowDesktop(this.Handle);
             InitializeComponent();
         }
 
